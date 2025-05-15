@@ -1233,7 +1233,7 @@ public class ImGuiImplGlfw {
                 vp.setPlatformHandleRaw(GLFWNativeCocoa.glfwGetCocoaWindow(vd.window));
             }
 
-            glfwSetWindowPos(vd.window, (int) vp.getPosX(), (int) vp.getPosY());
+            //glfwSetWindowPos(vd.window, (int) vp.getPosX(), (int) vp.getPosY());
 
             // Install GLFW callbacks for secondary viewports
             glfwSetWindowFocusCallback(vd.window, ImGuiImplGlfw.this::windowFocusCallback);
@@ -1310,7 +1310,7 @@ public class ImGuiImplGlfw {
             }
             posX[0] = 0;
             posY[0] = 0;
-            glfwGetWindowPos(vd.window, posX, posY);
+            //glfwGetWindowPos(vd.window, posX, posY);
             dst.set(posX[0], posY[0]);
         }
     }
