@@ -114,7 +114,7 @@ public final class ImGuiIO extends ImGuiStruct {
      */
     public ImVec2 getDisplaySize() {
         final ImVec2 dst = new ImVec2();
-        nGetDisplaySize(dst);
+        //nGetDisplaySize(dst);
         return dst;
     }
 
