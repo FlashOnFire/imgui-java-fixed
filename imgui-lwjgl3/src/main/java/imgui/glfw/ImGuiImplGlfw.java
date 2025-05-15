@@ -1323,7 +1323,7 @@ public class ImGuiImplGlfw {
                 return;
             }
             vd.ignoreWindowPosEventFrame = ImGui.getFrameCount();
-            glfwSetWindowPos(vd.window, (int) value.x, (int) value.y);
+            //glfwSetWindowPos(vd.window, (int) value.x, (int) value.y);
         }
     }
 
